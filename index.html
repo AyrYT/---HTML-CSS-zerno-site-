@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Зерно — уютная кофейня: свежая обжарка, домашняя выпечка и тёплая атмосфера.">
+  <title>Зерно — кофейня с собственной обжаркой</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#top">Зерно<span class="logo-dot">.</span></a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Открыть меню">
+      <label for="nav-toggle" class="burger" aria-hidden="true"><span></span></label>
+
+      <nav class="main-nav" aria-label="Основная навигация">
+        <ul>
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#menu">Меню</a></li>
+          <li><a href="#process">Как мы работаем</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Кофейня · собственная обжарка</p>
+          <h1>Кофе, который <em>хочется</em> растянуть на весь вечер</h1>
+          <p class="lead">Мы обжариваем зерно каждую неделю и печём выпечку по утрам. Заходите за <strong>чашкой тепла</strong> в любую погоду.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#menu">Смотреть меню</a>
+            <a class="btn btn-ghost" href="#contacts">Забронировать стол</a>
+          </div>
+        </div>
+        <figure class="hero-figure">
+          <img src="images/hero.svg" alt="Белая чашка горячего кофе с паром на тёплом бежевом фоне" width="600" height="500">
+          <figcaption class="hero-badge">Свежая обжарка<br><span>каждую неделю</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">Почему к нам возвращаются</h2>
+        <p class="section-sub">Три простые вещи, на которых держится наша кофейня.</p>
+
+        <div class="features">
+          <article class="feature">
+            <h3>Своя обжарка</h3>
+            <p>Работаем с небольшими фермами и сами подбираем профиль обжарки для каждого сорта.</p>
+          </article>
+          <article class="feature">
+            <h3>Домашняя выпечка</h3>
+            <p>Круассаны, булочки и десерты готовим с утра, поэтому они всегда <span class="mark">тёплые и свежие</span>.</p>
+          </article>
+          <article class="feature">
+            <h3>Спокойная атмосфера</h3>
+            <p>Мягкий свет, дерево и тишина: здесь удобно работать, читать и встречаться с друзьями.</p>
+          </article>
+          <article class="feature">
+            <h3>Забота о природе</h3>
+            <p>Берём стакан с собой — получаете скидку. Кофейную гущу отдаём садоводам.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Наше меню</h2>
+        <p class="section-sub">Несколько любимых позиций наших гостей.</p>
+
+        <div class="cards">
+          <article class="card">
+            <span class="tag">Хит</span>
+            <img src="images/espresso.svg" alt="Маленькая чашка эспрессо с густой пенкой" width="400" height="300" loading="lazy">
+            <div class="card-body">
+              <h3>Эспрессо</h3>
+              <p>Насыщенный вкус, шоколадное послевкусие и плотная пенка.</p>
+              <p class="price">150 ₽</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/latte.svg" alt="Высокий стакан латте с молочной пеной" width="400" height="300" loading="lazy">
+            <div class="card-body">
+              <h3>Латте</h3>
+              <p>Нежный кофе с шелковистым молоком и мягкой сладостью.</p>
+              <p class="price">230 ₽</p>
+            </div>
+          </article>
+          <article class="card">
+            <span class="tag">Новинка</span>
+            <img src="images/croissant.svg" alt="Золотистый круассан на светлом фоне" width="400" height="300" loading="lazy">
+            <div class="card-body">
+              <h3>Круассан</h3>
+              <p>Слоёный, хрустящий снаружи и воздушный внутри.</p>
+              <p class="price">140 ₽</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section">
+      <div class="container process">
+        <div class="process-text">
+          <h2 class="section-title">Как мы готовим кофе</h2>
+          <ol class="steps">
+            <li>Выбираем зерно у проверенных фермеров.</li>
+            <li>Обжариваем небольшими партиями.</li>
+            <li>Мелем прямо перед приготовлением.</li>
+            <li>Подаём с улыбкой и заботой.</li>
+          </ol>
+        </div>
+        <aside class="note">
+          <h4>Совет бариста</h4>
+          <p>Хотите мягче вкус? Попросите приготовить кофе на <strong>альтернативном молоке</strong> — овсяном или миндальном.</p>
+          <h5>Часы работы</h5>
+          <ul class="hours">
+            <li>Пн–Пт: 8:00–21:00</li>
+            <li>Сб–Вс: 9:00–22:00</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="contacts" class="section section-alt">
+      <div class="container contacts">
+        <div class="contacts-info">
+          <h2 class="section-title">Свяжитесь с нами</h2>
+          <p class="section-sub">Хотите забронировать стол или задать вопрос? Оставьте сообщение — ответим в течение дня.</p>
+          <h6>Адрес</h6>
+          <p>г. Екатеринбург, ул. Ленина, 25</p>
+          <h6>Телефон</h6>
+          <p><a href="tel:+73431234567">+7 (343) 123-45-67</a></p>
+        </div>
+
+        <form class="form" id="contact-form" action="#" method="post" novalidate>
+          <div class="field">
+            <label for="name">Ваше имя</label>
+            <input type="text" id="name" name="name" placeholder="Например, Анна" required minlength="2">
+            <small class="error">Введите имя (минимум 2 символа)</small>
+          </div>
+          <div class="field">
+            <label for="email">Электронная почта</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            <small class="error">Введите корректный e-mail</small>
+          </div>
+          <div class="field">
+            <label for="topic">Тема</label>
+            <select id="topic" name="topic">
+              <option>Бронирование стола</option>
+              <option>Вопрос по меню</option>
+              <option>Сотрудничество</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Сообщение</label>
+            <textarea id="message" name="message" rows="4" placeholder="Напишите, чем мы можем помочь" required minlength="10"></textarea>
+            <small class="error">Сообщение должно содержать минимум 10 символов</small>
+          </div>
+          <button type="submit" class="btn btn-primary">Отправить</button>
+          <p class="form-status" id="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Кофейня «Зерно». Учебный проект.</p>
+      <ul class="footer-links">
+        <li><a href="#about">О нас</a></li>
+        <li><a href="#menu">Меню</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <a href="#top" class="to-top" aria-label="Наверх">↑</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
